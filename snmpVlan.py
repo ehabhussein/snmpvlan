@@ -70,7 +70,7 @@ class snmpvlan(threading.Thread):
                         (1,3,6))
                 if len(varBinds) > 0:
 			
-			print host.strip()+": Snmp open, Has Vlans configured and \"@\" used in its community string\n"
+			print host.strip()+": Snmp open, Has Vlans configured and possible \"@\" used in its community string\n"
 			print "Finding %s VlanIDs" %host
 			for i in range(1,1000):
 				errorIndication, errorStatus, errorIndex, varBinds = cmdgen.CommandGenerator().getCmd(\
