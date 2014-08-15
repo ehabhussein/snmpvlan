@@ -1,4 +1,4 @@
-NexusTaco is a snmp scanner that can be used both for internal testing and external testing to assess Cisco Nexus switches ( all models). There are many snmp scanners and brute forcers this was made for just completeness.It has the following features:
+NexusTaco is a snmp scanner that can be used both for internal testing and external testing to assess Cisco Nexus switches ( 5000 and 6000 family). There are many snmp scanners and brute forcers this was made for just completeness.It has the following features:
 *Finds Nexus switches specifically since they seem to reply to bogus community strings
 *Bruteforces Vlan ID’s which can be used for Vlan hopping / double tagging attacks without a community incase #3 doesn’t come through (useful for internal tests)
 *Bruteforces snmp community strings To find the following:
