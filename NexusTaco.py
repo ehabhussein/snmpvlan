@@ -2,8 +2,8 @@
 #By Ehab hussein
 #ehab.hussein@ioactive.co.uk
 #Nexus switchs VlanID information leakage. Nexus Switch snmp hax.
-#CVE-2014-3341
-
+#CVE ID: CVE-2014-3341
+#Cisco Bug ID: CSCup85616
 
 from sys import argv, exit
 import Queue
