@@ -36,7 +36,9 @@ TODO:
 
 *Anything else I forgot.
 
-$ python NexusTaco.py python NexusTaco.py CIDR $ python NexusTaco.py x.x.x.x/32 127.0.0.1 100 
+$ python NexusTaco.py python NexusTaco.py CIDR 
+
+$ python NexusTaco.py x.x.x.x/32 127.0.0.1 100 
 
 Thanks nmap for the ip list 
 
